@@ -1,0 +1,55 @@
+.Nav {
+  background-color: var(---color-background);
+  width: 100%;
+  height: 139px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.imgnav {
+  width: 148px;
+  height: 26.83px;
+  margin-top: 14px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-style: none;
+  color:var(---color-secundary);
+}
+.NavDiv {
+  background-color:var(---color-white);
+  width: 316px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(---color-secundary);
+}
+button {
+  background: var(---color-primary);
+  width: 107px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid var(---color-primary);
+  font-size: 14px;
+  color: var(---color-white);
+}
+
+@media (min-width: 1100px) {
+  .Nav {
+    height: 10%;
+    justify-content: space-between;
+  }
+  .NavDiv{
+    margin-right: 110px;
+  }
+  .imgnav{
+    margin-left: 110px;
+  }
+}

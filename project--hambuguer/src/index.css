@@ -1,0 +1,15 @@
+.Flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.DisplayFlex{
+  width: 100%;
+  justify-content: space-between;
+  justify-content: center;
+}
+@media(min-width:1000px){
+    .DisplayFlex{
+        display: flex;
+    }
+}
